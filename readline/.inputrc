@@ -1,0 +1,9 @@
+set editing-mode vi
+
+# vi mode settings
+$if mode=vi
+    # map escape key to jj
+    "jj": vi-movement-mode
+$endif
+
+set blink-matching-paren on
