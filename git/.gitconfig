@@ -1,0 +1,15 @@
+[user]
+	name = Yubraj Bhoi
+	email = yubrajbhoi999@gmail.com
+[alias]
+	br = branch
+	co = checkout
+	st = status
+	bls = branch --list
+	last = log -1 HEAD
+[credential]
+	helper = cache
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
