@@ -21,7 +21,6 @@ alias webshare='python -m http.server 8080'
 alias bb='busybox'
 alias mydate='date "+%d.%m.%Y %I:%M:%S %p"'
 alias datecommit='git commit -m "$(mydate)"'
-alias vide='nvim -u "$HOME/.config/nvim/ide.lua"'
 
 
 # Set some env vars

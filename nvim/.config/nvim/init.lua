@@ -1,5 +1,6 @@
 -- Set <Leader> key to ,
 vim.g.mapleader = " "
+vim.opt.signcolumn = 'no'
 
 -- Some basic options
 vim.cmd("syntax off")
