@@ -70,7 +70,7 @@ function clean-apt() {
 # Shortcuts for python virtualenv
 function scidev() {
     source "$HOME/others/venvs/default/bin/activate"
-    PS1='┌─(default) [yubraj@\server:\w]
+    PS1='┌─(default) [yubraj@server:\w]
 └─▪ '
 }
 
