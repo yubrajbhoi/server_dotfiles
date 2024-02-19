@@ -51,6 +51,10 @@ export OMP_NUM_THREADS=4
 # Default PyOpenCL device
 export PYOPENCL_CTX=0
 
+# Set up NPM
+export NPM_PACKAGES="${HOME}/.npm-packages"
+export PATH="$NPM_PACKAGES/bin:$PATH"
+
 
 # Functions
 # mkcd function does mkdir and cd in one step
